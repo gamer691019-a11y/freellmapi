@@ -3,7 +3,7 @@ services:
     name: freellmapi
     env: node
     buildCommand: npm install && npm run build
-    staticPublishPath: dist
+    staticPublishPath: client/dist
     routes:
       - type: rewrite
         source: /*
